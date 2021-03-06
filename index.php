@@ -17,10 +17,10 @@
             <a href="#">
                 <div class="list-item" id="now">My Project</div>
             </a>
-            <a href="about.html">
+            <a href="about.php">
                 <div class="list-item">About Me</div>
             </a>
-            <a href="ask.html">
+            <a href="ask.php">
                 <div class="list-item">Ask Me!</div>
             </a>
 
