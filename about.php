@@ -14,13 +14,13 @@
     </div>
     <div class="tengah">
         <div class="sidebar">
-            <a href="index.html">
+            <a href="index.php">
                 <div class="list-item">My Project</div>
             </a>
             <a href="#">
                 <div class="list-item" id="now">About Me</div>
             </a>
-            <a href="ask.html">
+            <a href="ask.php">
                 <div class="list-item">Ask Me!</div>
             </a>
 
