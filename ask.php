@@ -17,7 +17,7 @@
                 <a href="index.html">
                     <div class="list-item">My Project</div>
                 </a>
-                <a href="about.html">
+                <a href="about.php">
                     <div class="list-item">About Me</div>
                 </a>
                 <a href="#">
