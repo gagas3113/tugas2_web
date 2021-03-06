@@ -62,7 +62,7 @@
 
     <div class="footer">
         <div class="footer-nav">
-            <a href="#">Github</a>
+            <a href="https://github.com/gagas3113/tugas2_web">Github</a>
         </div>
     </div>
 
