@@ -14,7 +14,7 @@
         </div>
         <div class="tengah">
             <div class="sidebar">
-                <a href="index.html">
+                <a href="index.php">
                     <div class="list-item">My Project</div>
                 </a>
                 <a href="about.php">
