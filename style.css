@@ -1,0 +1,207 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.list-item{
+    font-family: system-ui;
+}
+
+.title{
+    font-family: serif;
+    font-size: 60px;
+    color:rgb(255, 255, 255); 
+}
+
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* 
+Diatas untuk reset css
+*/
+html {
+    height:100%;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+}
+
+.navbar, .footer {
+    background-color: rgb(93, 167, 236);
+}
+
+.nav-title, .footer-nav {
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.sidebar {
+    background-color: white;
+    height: 88vh;
+    width: 250px;
+    border-right: 2px solid rgb(153, 153, 153);
+}
+
+.sidebar a, .footer-nav a {
+    text-decoration: none;
+}
+
+.footer-nav a{
+    color: white;
+}
+
+
+.list-item {
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+}
+
+#now{
+    background-color: rgb(206, 206, 206);
+}
+
+.utama {
+    background-image: url(web-design-background.png);    width: 85%;
+    height: 80vh;
+    padding: 10px;
+}
+
+.tengah {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#customers {
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    opacity: 1;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    
+  }
+  
+  #customers tr:nth-child(even){background-color: #ffffff;}
+  #customers tr:nth-child(odd){background-color: #e6e4e4;}
+
+  #customers tr:hover {background-color: rgb(133, 133, 133);}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #3f4042;
+    color: rgb(255, 255, 255);
+  }
+
+
+  .isi-utama {
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      flex-direction: row;
+    }
+
+    .item-utama{
+        width: 40%;
+    }
+
+
+  .item-utama img{
+      width: 100%;
+      display: inline-block;
+  }
+
+  .judul-p {
+      font-size: 40px;
+  }
+
+.bold {
+      font-size: 30px;
+}
+
+ul{
+    margin-left: 30px;
+}
+li {
+    font-size: 20px;
+}
+  
+input[type=text], textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+ input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+ input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+ .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
